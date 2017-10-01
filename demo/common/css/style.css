@@ -1,0 +1,13 @@
+.panel-block{
+    padding: 25px;
+    font-size: 19px;
+    line-height: 30px;
+}
+
+.hide{
+    display: none
+}
+
+.align-center{
+    text-align: center
+}

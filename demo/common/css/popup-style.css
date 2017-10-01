@@ -1,0 +1,55 @@
+*, *:before, *:after { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
+a { 
+    color: rgba(255,255,255,0.6); 
+    text-transform: uppercase; 
+    text-decoration: none; 
+    line-height: 42px
+}
+
+h1 { 
+    padding: 60px 0; 
+    font-weight: 400; 
+    text-align: center
+}
+p { 
+    margin: 0 0 20px; 
+    line-height: 1.5
+}
+
+input[type="text"].form-control{
+    height: 24px;
+}
+.form-group .input-addon-icon{
+    float: left;
+    margin-left: 10px;
+    cursor: pointer
+}
+.form-group{
+    border: 0 none;
+    padding: 5px 10px
+}
+.form-group:after{
+    content: '';
+    clear: both;
+    display: table
+}
+
+.form-group .form-control,
+.form-group .form-control-wrapper{
+    float: left
+}
+.form-group .control-label{
+    float: left;
+    width: 30%;
+    text-align: right;
+    padding: 0 15px 0 0
+}
+
+input[disabled="disabled"]{
+    /*cursor: not-allowed;*/
+}
